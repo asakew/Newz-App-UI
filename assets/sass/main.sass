@@ -4,7 +4,7 @@
 	box-sizing: border-box
 
 body
-	color:  $qora
+	color: $qora
 	background: #CFCCDA
 	font-family: Calibri
 
@@ -95,8 +95,8 @@ i.fa-1
 	float: left
 	margin-right: 8px
 
-.author-logo img
-	border-radius: 50% !important
+.author-logo img, .bottom-navbar-author img
+	border-radius: 50%
 	
 .author-name
 	// font-size: 1px
@@ -135,3 +135,13 @@ i.fa-1
 	background: -webkit-linear-gradient(to bottom,transparent,#000)
 	background: -o-linear-gradient(to bottom,transparent,#000)
 	background: linear-gradient(to bottom,transparent,#000)
+
+.bottom-navbar 
+	display: flex
+	align-items: stretch
+
+.bottom-navbar > a
+	color: $qora
+	text-align: center
+	line-height: 75px
+	font-size: 2em
