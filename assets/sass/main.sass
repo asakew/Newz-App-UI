@@ -1,15 +1,87 @@
 @import variables, mixins
 
+*
+	box-sizing: border-box
+
 body
 	color:  $qora
 	background: #CFCCDA
 
 .mobile-container
-	max-width: 450px
+	max-width: 1200px
+	height: 400px
 	margin: auto
 	padding: 30px 25px
 	background-color: #FBFBFB
-	border-radius: 20px
+	@include border-radius
 h1
 	font-family: Centaur
 
+.nav-scroller .nav
+	display: -webkit-box
+	display: -ms-flexbox
+	display: flex
+	-ms-flex-wrap: nowrap
+	flex-wrap: nowrap
+	padding-bottom: 1rem
+	margin-top: -1px
+	overflow-x: auto
+	text-align: center
+	white-space: nowrap
+	-webkit-overflow-scrolling: touch
+
+.nav-scroller
+	position: relative
+	z-index: 2
+	height: 2.75rem
+	overflow-y: hidden
+
+.nav-scroller .nav::-webkit-scrollbar
+	display: none
+
+.nav-scroller .nav
+	-ms-overflow-style: none
+	scrollbar-width: none
+
+a
+	padding: 0 25px 0 0
+	font-family: Calibri
+	font-size: 1.2rem
+	text-decoration: none
+	color: $anchor
+
+a.active
+	color: $qora2
+	font-weight: bolder
+
+i.fa-1 
+	font-size: 25px
+	font-weight: bolder
+
+.row
+	display: flex
+	flex-wrap: wrap
+
+.column
+	flex: 25%
+	padding: 20px
+
+@media screen and (max-width: 992px)
+	.column
+		flex: 50%
+
+@media screen and (max-width: 600px)
+	.row
+		flex-direction: column
+.card
+	background-color: $oq
+	@include border-radius
+
+.card-content
+	padding: 0 5px 8px
+
+img
+	width: 100%
+	height: auto
+	border-radius: 20px 20px 0 0
+	
