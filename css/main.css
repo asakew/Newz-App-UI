@@ -1,5 +1,18 @@
 body {
-  color: #fff;
+  color: #000;
+  background: #CFCCDA;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  padding: 50px 10px;
+  background-color: #FBFBFB;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: Centaur;
 }
 
 /*# sourceMappingURL=main.css.map */
