@@ -1,4 +1,4 @@
-# Newz-App-UI
+# Newz-App-UI v2
  
 Orginal Author *vijay verma*: https://dribbble.com/realvjy
 
