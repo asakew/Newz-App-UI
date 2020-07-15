@@ -5,6 +5,7 @@
 body {
   color: #000;
   background: #CFCCDA;
+  font-family: Calibri;
 }
 
 .mobile-container {
@@ -74,7 +75,7 @@ i.fa-1 {
 }
 
 .column {
-  flex: 25%;
+  flex: 33.3%;
   padding: 20px;
 }
 
@@ -94,13 +95,31 @@ i.fa-1 {
 }
 
 .card-content {
-  padding: 0 5px 8px;
+  padding: 15px;
 }
 
-img {
+.card-img {
   width: 100%;
   height: auto;
   border-radius: 20px 20px 0 0;
+}
+
+.post-meta {
+  display: inline-block;
+  width: 100%;
+}
+
+.author-logo {
+  float: left;
+  margin-right: 8px;
+}
+
+.author-logo img {
+  border-radius: 50% !important;
+}
+
+.post-data {
+  color: #a0a0a0;
 }
 
 .img-container {
@@ -109,35 +128,36 @@ img {
   color: white;
 }
 
-.bottom-left {
+.article-title {
   position: absolute;
   bottom: 8px;
-  left: 16px;
+  left: 15px;
+  font-size: 1.3em;
+  text-align: left;
 }
 
-.top-left {
+.article-category {
   position: absolute;
-  top: 8px;
-  left: 16px;
+  bottom: 63px;
+  left: 11px;
+  background-color: #ff5dad;
+  padding: 3px 5px;
+  border-radius: 20px;
 }
 
-.top-right {
+.img-content {
   position: absolute;
-  top: 8px;
-  right: 16px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 83px 5px 5px;
+  color: #fff;
 }
 
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.img-content {
+  background: -webkit-linear-gradient(to bottom, transparent, #000);
+  background: -o-linear-gradient(to bottom, transparent, #000);
+  background: linear-gradient(to bottom, transparent, #000);
 }
 
 /*# sourceMappingURL=main.css.map */
