@@ -1,6 +1,8 @@
 # Newz-App-UI v2
- 
-Orginal Author *vijay verma*: https://dribbble.com/realvjy
+
+screenshootHome: ![screenshoot](https://github.com/asakew/Newz-App-UI/blob/master/assets/img/image_2020-07-15_21-05-28%20(2).png?raw=true "screenshoot demo")
+
+Orginal graphicDesigner: https://dribbble.com/realvjy
 
 dribbble page: https://dribbble.com/shots/6818282-Newz-App-UI
 
